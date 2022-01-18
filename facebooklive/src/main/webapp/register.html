@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>register</title>
+</head>
+ <style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+  text-align:center;
+  vertical-align:center;
+  background-color: sky blue;
+}
+
+.image{
+  display:inline-block;
+  margin-top:30px;
+  transition: all 0.8s;
+}
+
+.image:hover{
+transform:scale(1.1);
+}
+
+.image:hover figcaption{
+opacity : 1;
+transition: opacity 0.8s;  
+}
+
+figure{
+  font-family:'Ubuntu';
+  font-size:20px;
+  color:#282828;
+  margin:0;
+  margin-bottom:30px;
+}
+
+img{
+  border: 1px solid grey;
+  width: 230px;
+  height:230px;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+
+figcaption{
+  opacity: 0;
+  text-align:center;
+}
+
+span{
+  font-style:italic;
+  font-size:15px;
+}
+span:before{
+content:' - ';
+}
+
+a{
+  text-decoration:none;
+  color:#52618d;
+}
+  
+ </style>
+<body>
+<p align="center"><font size=5 color=blue><b>Registration Page</b></font></p>
+<center>
+	<form action="UserServlet?method=register" method="post">
+	<table border="5">
+		<tr><td>Name</td><td><input type=text name=nm></td></tr>
+		<tr><td>Password</td><td><input type=password name=pass></td></tr>
+		<tr><td>Email</td><td><input type=email name=em></td></tr>
+		<tr><td>Gender</td><td><input type=radio name=g value=male>male<input type=radio name=g value=female>female</td></tr>
+		<tr><td>Age</td><td><input type=number name=age></td></tr>
+		<tr><td><input type=submit value="Sign Up"></td><td><input type=reset></td></tr>
+	
+	</table>
+</form>
+
+<a href=login.html>Already have an account?</a>&emsp; <a href=index.html>Home</a>
+
+</center>
+
+</body>
+</html>
