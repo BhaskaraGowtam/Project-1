@@ -51,7 +51,7 @@ view report about active user entire project push from eclipse to github.
 Some of the features which are going to update soon are 1.like option to like the profiles 2.dislike option 3.upload photo 4.updating this application to GUI by using HTML,CSS,JAVA SCRIPT AND SERVLETS
 
 ## Getting Started :
-git clone https://github.com/Govardhan-999/Project_001 cd my-project
+git clone https://github.com/BhaskaraGowtam/Project-1/tree/master cd my-project
 
 ## usage :
 After project come reside into your local system run the UserServlet.java, file you can able to use the App choose your option as the console direct and you good to use the app
