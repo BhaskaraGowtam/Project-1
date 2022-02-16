@@ -1,4 +1,4 @@
-# Welcome To Core Java Facebook Application
+# Welcome To Java Facebook Application
 
 ## Project Description:
 Facebook application is core java based project, which is implemented to provide some of the basic features to the user to interact with the application and allowing the user to edit the profile and retrive the data about the profiles. simple console based application in this project JDBC also used to strore and retrive the data.
